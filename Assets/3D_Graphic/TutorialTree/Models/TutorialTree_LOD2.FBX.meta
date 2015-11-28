@@ -1,42 +1,23 @@
 fileFormatVersion: 2
-guid: 93073095573838241b2fc108cc8f19cc
-timeCreated: 1448544289
+guid: 2e91d1bac5f2b124491f080339b875fd
+timeCreated: 1448716283
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: Bone001
     100002: Bone002
-    100004: Branch1
-    100006: Branch2
-    100008: Branch3
-    100010: Branches_High
-    100012: ControlBone
-    100014: Leaves_High
-    100016: Trunk_High
-    100018: //RootNode
+    100004: ControlBone
+    100006: Trunk_High
+    100008: //RootNode
     400000: Bone001
     400002: Bone002
-    400004: Branch1
-    400006: Branch2
-    400008: Branch3
-    400010: Branches_High
-    400012: ControlBone
-    400014: Leaves_High
-    400016: Trunk_High
-    400018: //RootNode
+    400004: ControlBone
+    400006: Trunk_High
+    400008: //RootNode
     4300000: Trunk_High
-    4300002: Leaves_High
-    4300004: Branch3
-    4300006: Branch2
-    4300008: Branch1
-    7400000: Take 001
     9500000: //RootNode
-    13700000: Branch1
-    13700002: Branch2
-    13700004: Branch3
-    13700006: Leaves_High
-    13700008: Trunk_High
+    13700000: Trunk_High
   materials:
     importMaterials: 1
     materialName: 0
