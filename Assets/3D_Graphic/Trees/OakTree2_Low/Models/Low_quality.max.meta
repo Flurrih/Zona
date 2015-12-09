@@ -1,22 +1,23 @@
 fileFormatVersion: 2
-guid: 7d548e2800aa561429b678ce9d463044
-timeCreated: 1449670934
+guid: ee1b8522b9de17841b581e9e4cdbacd4
+timeCreated: 1449692290
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Plane025
-    100004: Trunk
-    400000: //RootNode
-    400002: Plane025
-    400004: Trunk
-    2300000: Plane025
-    2300002: Trunk
-    3300000: Plane025
-    3300002: Trunk
-    4300000: Trunk
-    4300002: Plane025
+    100000: Cylinder073
+    100002: //RootNode
+    100004: Object379
+    400000: Cylinder073
+    400002: //RootNode
+    400004: Object379
+    2300000: Cylinder073
+    2300002: Object379
+    3300000: Cylinder073
+    3300002: Object379
+    4300000: Cylinder073
+    4300002: Object379
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -75,7 +76,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
