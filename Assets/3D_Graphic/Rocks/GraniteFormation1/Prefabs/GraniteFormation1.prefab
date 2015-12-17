@@ -24,6 +24,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 410650}
+  - 65: {fileID: 6561252}
   m_Layer: 0
   m_Name: GraniteFormation1
   m_TagString: Untagged
@@ -172,8 +173,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 126818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -93.2969971, y: 32.6199989, z: -140.623184}
-  m_LocalScale: {x: 1.36435223, y: 1.80065179, z: 1}
+  m_LocalPosition: {x: 269.254028, y: 229.446014, z: 304.515747}
+  m_LocalScale: {x: .674184203, y: .889778197, z: .494142294}
   m_Children:
   - {fileID: 441382}
   - {fileID: 442780}
@@ -310,7 +311,7 @@ MeshRenderer:
   m_UseLightProbes: 1
   m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
+  m_ScaleInLightmap: .910374582
   m_PreserveUVs: 0
   m_ImportantGI: 0
   m_AutoUVMaxDistance: .5
@@ -480,6 +481,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 148262}
   m_Mesh: {fileID: 4300000, guid: 408ad3818344169428d028a5cb36a082, type: 3}
+--- !u!65 &6561252
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.1500001, y: 4.69000006, z: 3.74000001}
+  m_Center: {x: -1.48000002, y: -.800000012, z: -3.16000009}
 --- !u!205 &20540094
 LODGroup:
   m_ObjectHideFlags: 1
@@ -492,11 +505,11 @@ LODGroup:
   m_FadeMode: 0
   m_AnimateCrossFading: 0
   m_LODs:
-  - screenRelativeHeight: .154916704
+  - screenRelativeHeight: .504075408
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2349982}
-  - screenRelativeHeight: .0158828087
+  - screenRelativeHeight: .0671408996
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2373394}
@@ -508,16 +521,16 @@ LODGroup:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 161188}
   serializedVersion: 2
-  m_LocalReferencePoint: {x: 1.49011612e-08, y: 0, z: 0}
-  m_Size: .741745472
+  m_LocalReferencePoint: {x: 3.46302986e-05, y: 6.47902489e-05, z: -9.62615013e-06}
+  m_Size: .741745353
   m_FadeMode: 0
   m_AnimateCrossFading: 0
   m_LODs:
-  - screenRelativeHeight: .455187291
+  - screenRelativeHeight: .499979824
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2385728}
-  - screenRelativeHeight: .0152088879
+  - screenRelativeHeight: .0796577185
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2309690}
@@ -534,11 +547,11 @@ LODGroup:
   m_FadeMode: 0
   m_AnimateCrossFading: 0
   m_LODs:
-  - screenRelativeHeight: .455187291
+  - screenRelativeHeight: .499979824
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2391714}
-  - screenRelativeHeight: .0152088879
+  - screenRelativeHeight: .272610784
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2370276}
@@ -549,7 +562,23 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_LODs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: .0986141637
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 126818}
