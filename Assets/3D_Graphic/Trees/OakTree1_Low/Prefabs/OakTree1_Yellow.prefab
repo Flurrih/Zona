@@ -156,6 +156,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 447118}
   - 205: {fileID: 20508650}
+  - 65: {fileID: 6582080}
   m_Layer: 0
   m_Name: OakTree1_Yellow
   m_TagString: Untagged
@@ -208,7 +209,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 194348}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 143.550003, y: 27.1499996, z: -145.320007}
+  m_LocalPosition: {x: 325.264709, y: 234.562881, z: 274.459717}
   m_LocalScale: {x: 1.35541022, y: 1.35541058, z: 1.35541058}
   m_Children:
   - {fileID: 442144}
@@ -478,6 +479,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 153026}
   m_Mesh: {fileID: 4300002, guid: e153cf92285fd41468d6cd0752ccba02, type: 3}
+--- !u!65 &6582080
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 194348}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5999999, y: 7.57000017, z: 1.75}
+  m_Center: {x: .629999995, y: 3.3900001, z: -.400000006}
 --- !u!205 &20508650
 LODGroup:
   m_ObjectHideFlags: 1

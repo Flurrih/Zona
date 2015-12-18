@@ -156,6 +156,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 488004}
   - 205: {fileID: 20516388}
+  - 65: {fileID: 6565654}
   m_Layer: 0
   m_Name: BirchTree2_Red
   m_TagString: Untagged
@@ -256,7 +257,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199224}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.2357063, y: 26.9091301, z: -126.581345}
+  m_LocalPosition: {x: 252.767227, y: 226.641937, z: 210.727692}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 491678}
@@ -478,6 +479,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 110860}
   m_Mesh: {fileID: 4300002, guid: 669f6f84d5547934cbcce7b13e6153e6, type: 3}
+--- !u!65 &6565654
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 199224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4000001, y: 7.44000006, z: 2.11999989}
+  m_Center: {x: .790000021, y: 3.5, z: -.209999993}
 --- !u!205 &20516388
 LODGroup:
   m_ObjectHideFlags: 1

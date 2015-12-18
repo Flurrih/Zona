@@ -26,6 +26,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 495416}
   - 205: {fileID: 20583898}
+  - 65: {fileID: 6590634}
   m_Layer: 0
   m_Name: BirchTree1_Green
   m_TagString: Untagged
@@ -169,7 +170,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 197904}
-  m_LocalRotation: {x: .816211462, y: -.0150501607, z: .504688144, w: .280824512}
+  m_LocalRotation: {x: .816211343, y: -.0150501588, z: .504688084, w: .280824482}
   m_LocalPosition: {x: .887483895, y: 11.0247688, z: .998421609}
   m_LocalScale: {x: -1.00000012, y: -1.00000072, z: -1.00000072}
   m_Children: []
@@ -219,7 +220,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199378}
-  m_LocalRotation: {x: .816211462, y: -.0150501607, z: .504688144, w: .280824512}
+  m_LocalRotation: {x: .816211343, y: -.0150501588, z: .504688084, w: .280824482}
   m_LocalPosition: {x: .887483895, y: 11.0247688, z: .998421609}
   m_LocalScale: {x: -1.00000012, y: -1.00000072, z: -1.00000072}
   m_Children: []
@@ -271,7 +272,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 160168}
-  m_LocalRotation: {x: .816211462, y: -.0150501607, z: .504688144, w: .280824512}
+  m_LocalRotation: {x: .816211343, y: -.0150501588, z: .504688084, w: .280824482}
   m_LocalPosition: {x: .887483895, y: 11.0247688, z: .998421609}
   m_LocalScale: {x: -1.00000012, y: -1.00000072, z: -1.00000072}
   m_Children: []
@@ -284,7 +285,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 116856}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 53.9510002, y: 26.9091301, z: -133.229996}
+  m_LocalPosition: {x: 286.143768, y: 226.576324, z: 268.904572}
   m_LocalScale: {x: 1.20041668, y: 1, z: 1.50235236}
   m_Children:
   - {fileID: 454382}
@@ -478,6 +479,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 197904}
   m_Mesh: {fileID: 4300002, guid: 633818ceeda5a7840bc3c1fe67210079, type: 3}
+--- !u!65 &6590634
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116856}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.25, y: 7.63999987, z: 1.74000001}
+  m_Center: {x: .50999999, y: 3.25, z: -.180000007}
 --- !u!205 &20583898
 LODGroup:
   m_ObjectHideFlags: 1

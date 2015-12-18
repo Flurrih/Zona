@@ -212,6 +212,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 481136}
   - 205: {fileID: 20564968}
+  - 65: {fileID: 6594096}
   m_Layer: 0
   m_Name: TutorialTree_Bronze
   m_TagString: Untagged
@@ -369,7 +370,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 184208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.77528763, y: 26.9091301, z: -136.684967}
+  m_LocalPosition: {x: 302.699005, y: 226.576324, z: 151.654419}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 424464}
@@ -429,6 +430,18 @@ Transform:
   - {fileID: 410036}
   m_Father: {fileID: 481136}
   m_RootOrder: 2
+--- !u!65 &6594096
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184208}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.08999991, y: 7.34000015, z: 2.79999995}
+  m_Center: {x: 1.79999995, y: 3.47000003, z: .0799999982}
 --- !u!95 &9522168
 Animator:
   serializedVersion: 3
